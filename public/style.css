@@ -52,7 +52,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.header .content section {
+.header .content div {
   text-align: center;
 }
 .header .content > div {
@@ -102,13 +102,17 @@ a {
   align-items: center;
   text-align: center;
 }
-.aperture-studios__creator p {
+.aperture-studios__creator h2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #C0C0C0;
-  margin-bottom: -30px;
+  margin-bottom: 0;
 }
 .aperture-studios__title h1 {
+  margin-top: 0;
   font-size: 54px;
   line-height: 59px;
   font-weight: 400;
